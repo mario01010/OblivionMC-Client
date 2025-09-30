@@ -1,0 +1,21 @@
+.header{
+    background-image: url('../../assets/bg.png');
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo{
+    width: 300px;
+    margin-top: 70px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
