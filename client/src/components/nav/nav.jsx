@@ -1,19 +1,22 @@
 import './nav.css';
+import { BiSolidHome } from "react-icons/bi";
+import { MdForum } from "react-icons/md";
+import { MdLocalGroceryStore } from "react-icons/md";
 
 function Nav(){
     return(
         <nav>
             <li>
-                <button>Home</button>
+                <button><BiSolidHome /> Home</button>
             </li>
             <li>
                 <button>???</button>
             </li>
             <li>
-                <button>Forum</button>
+                <button className='active'><MdForum /> Forum</button>
             </li>
             <li>
-                <button>Store</button>
+                <button><MdLocalGroceryStore /> Store</button>
             </li>
             <li>
                 <button>???</button>
