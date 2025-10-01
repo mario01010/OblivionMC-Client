@@ -1,0 +1,27 @@
+.link{
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.link h2{
+    margin-top: 75px;
+    padding-left: 20px;
+    color: var(--primary);
+}
+
+.link h2:nth-child(1){
+    margin-right: 15px;
+}
+
+.link p:nth-child(3){
+    position: absolute;
+    top: 115px;
+    margin-left: 100px;
+}
+
+.link p:nth-child(2){
+    position: absolute;
+    top: 115px;
+    margin-left: 30px;
+}
