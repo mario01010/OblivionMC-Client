@@ -1,27 +1,30 @@
-.link{
-    color: white;
-    display: flex;
-    flex-direction: row;
+.link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
 }
 
-.link h2{
-    margin-top: 75px;
-    padding-left: 20px;
-    color: var(--primary);
+.link:first-child{
+    flex-direction: row-reverse;
 }
 
-.link h2:nth-child(1){
-    margin-right: 15px;
+.link-icon {
+  flex-shrink: 0;
 }
 
-.link p:nth-child(3){
-    position: absolute;
-    top: 115px;
-    margin-left: 100px;
+.link-text {
+  display: flex;
+  flex-direction: column;
 }
 
-.link p:nth-child(2){
-    position: absolute;
-    top: 115px;
-    margin-left: 30px;
+.link-text h2 {
+  margin: 0;
+  color: var(--primary);
+}
+
+.link-text p {
+  margin: 5px 0 0;
+  font-size: 0.95rem;
+  color: #ccc;
 }

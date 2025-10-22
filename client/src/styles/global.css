@@ -9,3 +9,9 @@ html, body{
 li{
     list-style: none;
 }
+
+body{
+    background: linear-gradient(to bottom, black 0%, #2a1042 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+}

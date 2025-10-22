@@ -1,0 +1,80 @@
+.hero{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.who{
+    width: 600px;
+    margin-right: 300px;
+    box-shadow: 0 0 10px 1px var(--shadow), inset 0 -70px 70px -10px var(--shadow);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background: linear-gradient(var(--primary), var(--secondary));
+    position: relative;
+}
+
+.who p{
+    width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.who h2{
+    width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 2px solid white;
+    padding-left: 10px;
+    color: white;
+}
+
+.who .cta{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.who .cta button:first-child{
+    margin-right: 20px;
+}
+
+.who .cta button{
+    width: 150px;
+    height: 30px;
+    border:  none;
+    color: var(--primary);
+    background-color: white;
+    border-radius: 10px;
+    transition: ease 0.3s;
+}
+
+.who .cta button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: white;
+    box-shadow: 0 0 10px 1px var(--shadow);
+}
+
+.template{
+    background-color: var(--primary);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.template p{
+    color: white;
+    font-size: 40px;
+}
